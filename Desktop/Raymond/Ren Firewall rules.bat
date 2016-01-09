@@ -1,0 +1,20 @@
+@echo off
+netsh advfirewall firewall add rule name="Block TCP 1-52" protocol=TCP dir=out remoteport=1-52 action=block
+netsh advfirewall firewall add rule name="Block UDP 1-52" protocol=UDP dir=out remoteport=1-52 action=block
+netsh advfirewall firewall add rule name="Block TCP 54-79" protocol=TCP dir=out remoteport=54-79 action=block
+netsh advfirewall firewall add rule name="Block UDP 54-79" protocol=UDP dir=out remoteport=54-79 action=block
+netsh advfirewall firewall add rule name="Block TCP 81-134" protocol=TCP dir=out remoteport=81-134 action=block
+netsh advfirewall firewall add rule name="Block UDP 81-87" protocol=UDP dir=out remoteport=81-87 action=block
+netsh advfirewall firewall add rule name="Block UDP 89-134" protocol=UDP dir=out remoteport=89-134 action=block
+netsh advfirewall firewall add rule name="Block TCP 136-138" protocol=TCP dir=out remoteport=136-138 action=block
+netsh advfirewall firewall add rule name="Block UDP 136-137" protocol=UDP dir=out remoteport=136-137 action=block
+netsh advfirewall firewall add rule name="Block TCP 140-444" protocol=TCP dir=out remoteport=140-444 action=block
+netsh advfirewall firewall add rule name="Block UDP 139-388" protocol=UDP dir=out remoteport=139-388 action=block
+netsh advfirewall firewall add rule name="Block UDP 390-444" protocol=UDP dir=out remoteport=390-444 action=block
+netsh advfirewall firewall add rule name="Block TCP 446-463" protocol=TCP dir=out remoteport=446-463 action=block
+netsh advfirewall firewall add rule name="Block UDP 446-463" protocol=UDP dir=out remoteport=446-463 action=block
+netsh advfirewall firewall add rule name="Block TCP 465-2200" protocol=TCP dir=out remoteport=465-2200 action=block
+netsh advfirewall firewall add rule name="Block UDP 465-2200" protocol=UDP dir=out remoteport=465-2200 action=block
+netsh advfirewall firewall add rule name="Block TCP 2202-3267" protocol=TCP dir=out remoteport=2202-3267 action=block
+netsh advfirewall firewall add rule name="Block TCP 3270-65535" protocol=TCP dir=out remoteport=3270-65535 action=block
+netsh advfirewall firewall add rule name="Block UDP 2202-65535" protocol=UDP dir=out remoteport=3270-65535 action=block
