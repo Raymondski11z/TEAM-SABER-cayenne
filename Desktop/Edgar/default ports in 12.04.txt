@@ -1,0 +1,27 @@
+avahi-daemon  -  safe to uninstall (not needed)
+	ports: 5353, 56149     ipv6: 5353, 54412
+
+
+
+dnsmasq  -  keep
+	ports: 53
+	packages: dnsmasq, dnsmasq-base
+
+dns masq is used to help network manager. It is needed for you to have internet if you are using network manager (we usually do by default). The port, however, doesn't need to be active. To disable it:
+
+nano /etc/resolv.conf
+
+comment out "nameserver 127.0.0.1
+
+kill -9 "dnsmasq's pid"
+
+dnsmasq -p 0
+
+
+
+cups  -  murder
+	ports: 631
+
+
+
+ubuntu-geoip-p  -  safe to kill 
