@@ -1,0 +1,40 @@
+there is python installed on to the 2012
+
+there are 2 users on the image
+
+smartscreen is off also the service
+
+teamviewer is running
+
+there is tight vnc
+
+service update is disabled
+
+internet options are not set up the only users on this is admin and gues
+
+uac is not on
+
+
+the firewall is not on the correct settings 
+it does not block all connections
+it allows all connections to go through
+
+there is no screen saver settings
+
+king roland is on the server of 2012 but he cant be log on to 
+
+remember to check back at the dns manager
+
+there is an iis onn the 2k12
+
+tight vnc is intstalled on thje
+itunes is on thiss too with ami and shit
+
+firewall loging settings are not configured
+
+start ups are not enabled on this 
+
+volume is disabled i cannont do shit on this 
+
+administator
+Starwarz1
